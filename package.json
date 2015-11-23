@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "Jumpei Ogawa's Personal Portfolio",
+  "scripts": {
+    "start": "harp server .",
+    "postinstall": "./node_modules/.bin/bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phanect/"
+  },
+  "author": "Jumpei Ogawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phanect/"
+  },
+  "homepage": "https://github.com/phanect/",
+  "devDependencies": {
+    "bower": "latest",
+    "stylus": "0.54.x"
+  }
+}
