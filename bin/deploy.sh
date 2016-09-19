@@ -3,9 +3,9 @@
 set -eu
 set -v
 
-type bower > /dev/null
-type git > /dev/null
-type harp > /dev/null
+hash bower
+hash git
+hash harp
 
 rm --recursive --force ./.build
 rm --recursive --force ./npm_modules
