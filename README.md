@@ -5,7 +5,7 @@ Jumpei Ogawa's personal portfolio web site.
 
 License
 -------
-MIT
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), except for files under images/
 
 Credits
 --------
