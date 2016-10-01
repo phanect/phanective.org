@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jumpei Ogawa - A Full Stack JavaScript &amp; DevOps Engineer</title>
+    <link rel="stylesheet" href="/styles/default.css">
+    <script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="/bower_components/app-router/app-router.html">
+    <link rel="import" href="/home-page.html">
+
+  </head>
+  <body>
+    <app-router>
+      <app-route path="/" import="home-page.html"></app-route>
+      <app-route path="/index.html" import="home.html"></app-route>
+      <app-route path="/cv" import="cv.html"></app-route>
+
+      <!-- TODO 404 page
+      <app-route path="*" import="/pages/not-found-page.html"></app-route>
+      -->
+    </app-router>
+  </body>
+</html>

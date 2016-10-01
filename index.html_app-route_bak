@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jumpei Ogawa - A Full Stack JavaScript &amp; DevOps Engineer</title>
+    <link rel="stylesheet" href="/styles/default.css">
+    <script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="/bower_components/app-route/app-location.html">
+    <link rel="import" href="/bower_components/app-route/app-route.html">
+
+  </head>
+  <body>
+    <app-location route="{{route}}"></app-location>
+
+    <app-route
+        route="{{route}}"
+        pattern="/:page"
+        data="{{routeData}}"
+        tail="{{subroute}}"></app-route>
+
+    <iron-pages selected="[[routeData.view]]" attr-for-selected="name">
+      <p name="tetete">
+        tetete
+      </p>
+      <p name="cv">
+        cv
+      </p>
+      <!--
+      <my-profile-view name="profile" route="{{subroute}}"></my-profile-view>
+      <my-message-list-view name="messages" route="{{subroute}}"></my-message-list-view>
+      <my-detail-view name="detail" route="{{subroute}}"></my-detail-view>
+    -->
+    </iron-pages>
+
+  </body>
+</html>
