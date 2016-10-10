@@ -32,4 +32,5 @@ Thirdparty images
 | [technologies/typescript.svg](https://github.com/remojansen/logo.ts)                                       | MIT                                                        |
 | [technologies/terraform.png](https://www.hashicorp.com/press.html)                                         | [Guidelines](https://www.hashicorp.com/press.html)         |
 | [technologies/webpack.png](https://github.com/webpack/webpack.github.com/blob/master/assets/logo-cube.png) | MIT                                                        |
+| [technologies/wercker.svg](https://github.com/wercker/wercker-identity)                                    | See [Readme](https://github.com/wercker/wercker-identity)  |
 | [technologies/ubuntu.svg](http://design.ubuntu.com/downloads?metadata=element-logo+brand-ubuntu)           | [Guidelines](http://design.ubuntu.com/brand/ubuntu-logo)   |
