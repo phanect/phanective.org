@@ -1,0 +1,7 @@
+{
+  "extends": "growaspeople",
+
+  "env": {
+    "browser":  true
+  }
+}
