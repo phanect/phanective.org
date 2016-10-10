@@ -1,0 +1,18 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+
+<!--
+`ph-github-repo`
+Github repository card
+-->
+
+<dom-module id="ph-project">
+  <template>
+    <div class="project-wrapper">
+      <h1><a href="{{ url }}">{{ name }}</a></h1>
+      <p class="term">{{ start }} - {{ end }}</p>
+      <p class="description"><content></content></p>
+    </div>
+  </template>
+  <link rel="import" type="css" href="/elements/ph-project/ph-project.css">
+  <script src="ph-project.js"></script>
+</dom-module>

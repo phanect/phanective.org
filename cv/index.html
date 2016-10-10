@@ -329,6 +329,9 @@
 
     <link rel="canonical" href="/cv/">
 
+    <script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="/elements/ph-project/ph-project.html">
+
     <script src="https://j.wovn.io/1" data-wovnio="key=CItG_b" async></script>
   </head>
   <body class="theme-default">
@@ -791,11 +794,15 @@
         <header class="section-header">
           <h2>Projects &amp; Organizations</h2>
         </header>
-
         <div class="resume-item">
-          <h3 class="resume-item-title"><a href="http://geddyjs.org">Geddy</a></h3>
-          <h4 class="resume-item-details">Contributor &bull; 2014 - 2015</h4>
-          <p class="resume-item-copy">Contributed code to Geddy, an MVC framework for Node.js.</p>
+          <div class="projects">
+            <ph-project name="Geddy" url="http://geddyjs.org" start="2014" end="2015">
+              An MVC framework for Node.js. Maintained code as a core contributor.
+            </ph-project>
+            <ph-project name="ossetup" url="https://github.com/phanect/ossetup" start="2015" end="2016">
+              My own OS setup scripts on clean install (&amp; experiment zone for DevOps technologies)
+            </ph-project>
+          </div>
         </div>
 
         <div class="resume-item">
