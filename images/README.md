@@ -14,7 +14,6 @@ Thirdparty images
 | [technologies/centos.svg](https://wiki.centos.org/ArtWork/Brand/Logo)                               | [Guidelines](https://wiki.centos.org/ArtWork/Brand/Logo)   |
 | [technologies/css.svg](http://www.bobbyberberyan.com/2012/03/html-5-css-3-logos/)                   | Free to use                                                |
 | [technologies/git.svg](https://git-scm.com/downloads/logos)                                         | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)  |
-| [technologies/go.svg](https://github.com/tenntenn/gopher-stickers)                                  | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)  |
 | [technologies/html5.png](https://www.w3.org/html/logo/)                                             |                                                            |
 | [technologies/javascript.png](https://github.com/voodootikigod/logo.js)                             | [Guidelines](https://github.com/voodootikigod/logo.js)     |
 | [technologies/jquery.png](https://brand.jquery.org/logos/)                                          | [Guidelines](https://brand.jquery.org/logos/)              |
