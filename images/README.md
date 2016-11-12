@@ -9,6 +9,7 @@ Thirdparty images
 | social/medium.png                                                                                   | Brought from official - TODO add guideline here            |
 | social/qiita.png                                                                                   | Brought from official - TODO add guideline here            |
 | [social/twitter.svg](http://www.flaticon.com/authors/elegant-themes)                                | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)  |
+| [technologies/angular.svg](https://angular.io/presskit.html)                                        | CC BY 4.0
 | [technologies/bash.svg](https://www.iconfinder.com/icons/285695/terminal_icon)                      | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)  |
 | [technologies/centos.svg](https://wiki.centos.org/ArtWork/Brand/Logo)                               | [Guidelines](https://wiki.centos.org/ArtWork/Brand/Logo)   |
 | [technologies/css.svg](http://www.bobbyberberyan.com/2012/03/html-5-css-3-logos/)                   | Free to use                                                |
@@ -24,6 +25,7 @@ Thirdparty images
 | [technologies/polymer.svg](https://github.com/Polymer/docs/blob/master/app/images/logos/p-logo.svg) | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)  |
 | [technologies/python.svg](https://www.python.org/community/logos/)                                  | [Guidelines](https://www.python.org/psf/trademarks/)       |
 | [technologies/stylus.png](https://github.com/stylus/stylus-lang.com/blob/gh-pages/img/stylus-logo.svg) | MIT                                                     |
+| [technologies/typescript.svg](https://github.com/remojansen/logo.ts)                                   | MIT                                                        |
 | [technologies/terraform.png](https://www.hashicorp.com/press.html)                                  | [Guidelines](https://www.hashicorp.com/press.html)         |
 | [technologies/webpack.png](https://github.com/webpack/webpack.github.com/blob/master/assets/logo-cube.png) | MIT                                                 |
 | [technologies/ubuntu.svg](http://design.ubuntu.com/downloads?metadata=element-logo+brand-ubuntu)    | [Guidelines](http://design.ubuntu.com/brand/ubuntu-logo)   |
