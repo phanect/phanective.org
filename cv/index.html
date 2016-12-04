@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,300,800,700">
     <link rel="stylesheet" href="/styles/cv.css">
     <link rel="canonical" href="/cv/">
+
+    <script src="https://j.wovn.io/1" data-wovnio="key=CItG_b" async></script>
   </head>
   <body class="theme-default">
     <div class="wrapper" itemscope itemtype="http://schema.org/Person">
@@ -19,7 +21,7 @@
         <h1 class="header-name" itemprop="name">Jumpei Ogawa</h1>
 
         <div class="title-bar">
-          <h2 class="header-title" itemprop="jobTitle">Full Stack JavaScript &amp; DevOps Engineer</h2>
+          <h2 class="header-title" itemprop="jobTitle">Full Stack JavaScript Engineer</h2>
 
           <ul class="icon-links">
             <!-- GitHub link -->
@@ -115,7 +117,7 @@
 
         <div id="summary" class="executive-summary" itemprop="description">
           <p>
-            Jumpei Ogawa is a Full Stack Web Application Engineer backed by JavaScript-based technologies such as Node.js, Polymer, and Vue.js.
+            Jumpei Ogawa is a Full Stack Web Application Engineer backed by JavaScript-based technologies such as Node.js, Polymer, Angular, and Vue.js.
           </p>
           <p>
             They are also a DevOps engineer with IaC (Inftastructure as Code) tools like Ansible, Packer, and Terraform (with some code-level understanding). Write Bash scripts well.
@@ -260,16 +262,19 @@
 
             <section id="project-notel">
               <h5>Notel</h5>
-              <p>A CRM for a sex industries. <a href="http://fuzoku-sys.com">web site (Japanese)</a><br>
-                We also intended to gather activity data of sex workers and sex industry companies to provide feedback to career support division.
+              <p>
+                A CRM for sex industries. - <a href="http://fuzoku-sys.com">web site (Japanese)</a><br>
+                It was not just an enterprise system, but also focused on gathering activity data of sex workers and sex industry companies to provide feedback to career support division.
               </p>
 
               <p>As a full stack engineer, I worked for backend, frontend, and infrastructure.</p>
 
-              <p>While I'm in thie project, I have contributed several open source projects including Geddy and Sequelize.</p>
+              <p>
+                During I was working for this project, I have contributed several open source projects including <a href="http://geddyjs.org">Geddy</a> and <a href="http://sequelizejs.com">Sequelize</a>.
+              </p>
 
               <p>
-                In this project, I have collaborated with engineers at Myanmar branch. We communicate in English, mainly on Slack and sometimes on Skype call.
+                In this project, I have collaborated with engineers at Myanmar branch. We communicate in English, mainly by chat on Slack, and talked orally on Skype once a week.
               </p>
 
               <p>I used following technologies:<p>
@@ -295,25 +300,25 @@
             <section id="project-kgb">
               <h5>Kagebunshin</h5>
               <p>
-                A kind of CRM for a sex industry company.<br>
-                Maintained and developed new functions for a web site manager.
+                A kind of CMS for a sex industry company.<br>
+                Maintained and developed new functions for the CMS and web sites using it.
                 I mainly worked for backend and frontend.
               </p>
               <p>
-                I implement it with SPA style architecture. Designed REST API with Slim framework and load them on frontend with Vue &amp; Polymer.
+                I have reimplemented frontend as SPA (Single Page Application) with Angular and Polymer, and backend as REST API using Slim framework.
               </p>
               <p>
-                The web manager has ton of technical debt. I'm fixing problems as follows, while I'm developing new functions:
+                This product has ton of technical debt. I'm fixing problems as follows, while I'm developing new functions:
                 <ul>
                   <li>There were no automated test code. I'm creating tests.</li>
                   <li>
-                    Almost the same systems are deployed for 10+ environments, but they are slightly different each other. I'm merging them to one code base.
+                    Almost the same but slitghtly different systems are deployed for 10+ environments, and I had to write the same code changes for many times. I'm merging them to one code base.
                   </li>
                   <li>
-                    Similar code in several pages. I'm putting together to one function (PHP/JS code) and Polymer Elements (code including HTML)
+                    A lot of code duplication. I'm putting together to one function (PHP/JS code) and Web Components
                   </li>
                   <li>
-                    View and logic are highly coupled and inefficiently working with designers. I'm separating them to REST API server and polymer-based template.
+                    View and logic are highly coupled and inefficiently working with designers. I'm separating them to REST API server and Web Components.
                   </li>
                 </ul>
               </p>
@@ -384,8 +389,7 @@
             </p>
             <h5>Document update of Asianux</h5>
             <p>
-              Asianux, also known as MIRACLE LINUX, is MIRACLE LINUX CORPORATION's own Linux distribution based on Red Hat Enterprise Linux.
-              I updated Asianux 3 documents so it can be applied for Asianux 4.
+              Asianux, also known as MIRACLE LINUX, is MIRACLE LINUX CORPORATION's own Linux distribution based on Red Hat Enterprise Linux. I updated Asianux 3 (older version) documents so it can be applied for Asianux 4.
             </p>
             <h5>Zabbix &amp; MIRACLE ZBX Instructor</h5>
             <p>See above "Engineer &amp; Marketer" section</p>
@@ -461,8 +465,9 @@
           <h3 class="resume-item-title"><a href="http://jp.kde.org">Japan KDE Users Group</a></h3>
           <h4 class="resume-item-details">Subleader &amp; Web master &bull; 2010 - 2013</h4>
           <p class="resume-item-copy">
-            KDE is a project which develops Software Compilation, a desktop system for Linux &amp; UNIX OSes with applications which work on it.
-            To promote KDE SC in Japan region and Japanese speaking area, we exhibit it at several events. I also worked as a web admin for Japan/ese team's web site jp.kde.org.
+            KDE is a project to develop a desktop system for Linux &amp; UNIX environments.<br>
+            To promote KDE in Japan region and Japanese speaking community, we exhibited it at several events. I had a presentation in COSCUP, a conference for opensource in Taiwan too.<br>
+            I also worked as a web admin for Japan/ese team's web site jp.kde.org.
           </p>
         </div>
       </section>
@@ -495,7 +500,7 @@
         </div>
 
         <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">TOEIC</h3>
+          <h3 class="resume-item-title" itemprop="award">TOEIC 610 points</h3>
           <h4 class="resume-item-details">Certified by Educational Testing Service &bull; October 2011</h4>
           <p class="resume-item-copy">Certification for fundermental English skills in reading and listening</p>
         </div>
