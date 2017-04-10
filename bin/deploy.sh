@@ -3,15 +3,14 @@
 set -eu
 set -v
 
-hash bower
 hash git
 hash harp
+hash npm
 
 rm --recursive --force ./.build
 rm --recursive --force ./npm_modules
-rm --recursive --force ./bower_components
 
-bower install --allow-root # --allow-root to run on wercker container
+npm install
 
 mkdir .build
 cp --recursive ./.git ./.build/
