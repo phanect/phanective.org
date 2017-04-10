@@ -5,12 +5,12 @@ set -v
 
 hash git
 hash harp
-hash npm
+hash yarn
 
 rm --recursive --force ./.build
 rm --recursive --force ./npm_modules
 
-npm install
+yarn install
 
 mkdir .build
 cp --recursive ./.git ./.build/
