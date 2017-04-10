@@ -4,7 +4,6 @@
   "description": "Jumpei Ogawa's Personal Portfolio",
   "scripts": {
     "start": "harp server .",
-    "postinstall": "./node_modules/.bin/bower install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,8 +16,10 @@
     "url": "https://github.com/phanect/"
   },
   "homepage": "https://github.com/phanect/",
+  "dependencies": {
+    "sanitize.css": "5.x"
+  },
   "devDependencies": {
-    "bower": "latest",
     "stylus": "0.54.x"
   }
 }

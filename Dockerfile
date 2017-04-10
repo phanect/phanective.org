@@ -1,5 +1,8 @@
 FROM node:4-slim
 
 RUN apt-get update -qq && apt-get dist-upgrade --yes \
-  && apt-get install --yes git \
+  && curl --silent --show-error https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - \
+  && echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list \
+  && sudo apt-get update -qq \
+  && apt-get install --yes git yarn \
   && npm install --global npm && npm install --global bower harp

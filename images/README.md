@@ -13,6 +13,7 @@ Thirdparty images
 | [technologies/bash.svg](https://www.iconfinder.com/icons/285695/terminal_icon)                             | CC BY 3.0                                                  |
 | [technologies/centos.svg](https://wiki.centos.org/ArtWork/Brand/Logo)                                      | [Guidelines](https://wiki.centos.org/ArtWork/Brand/Logo)   |
 | [technologies/ci.svg](http://www.flaticon.com/free-icon/cycle-represented-by-four-arrows-circle-in-a-rounded-square_27568) | CC BY 3.0                                  |
+| [technologies/circleci.svg](https://circleci.com/press/)                                                   |                                                            |
 | [technologies/css.svg](http://www.bobbyberberyan.com/2012/03/html-5-css-3-logos/)                          | Free to use                                                |
 | [technologies/git.svg](https://git-scm.com/downloads/logos)                                                | CC BY 3.0                                                  |
 | [technologies/githubflow.svg](www.flaticon.com/free-icon/code-fork-symbol_25406-)                          | CC BY 3.0                                                  |
