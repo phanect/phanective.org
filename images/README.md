@@ -3,12 +3,8 @@ Thirdparty images
 
 | File Name                                                                                                  | License / Guidelines                                       |
 | ---------------------------------------------------------------------------------------------------------- |:----------------------------------------------------------:|
-| [social/facebook.svg](http://www.flaticon.com/authors/elegant-themes)                                      | CC BY 3.0                                                  |
-| social/github.svg                                                                                          | Brought from official - TODO add guideline here            |
-| [social/linkedin.svg](http://www.flaticon.com/authors/elegant-themes)                                      | CC BY 3.0                                                  |
 | social/medium.png                                                                                          | Brought from official - TODO add guideline here            |
 | social/qiita.png                                                                                           | Brought from official - TODO add guideline here            |
-| [social/twitter.svg](http://www.flaticon.com/authors/elegant-themes)                                       | CC BY 3.0                                                  |
 | [technologies/angular.svg](https://angular.io/presskit.html)                                               | CC BY 4.0                                                  |
 | [technologies/bash.svg](https://www.iconfinder.com/icons/285695/terminal_icon)                             | CC BY 3.0                                                  |
 | [technologies/centos.svg](https://wiki.centos.org/ArtWork/Brand/Logo)                                      | [Guidelines](https://wiki.centos.org/ArtWork/Brand/Logo)   |
