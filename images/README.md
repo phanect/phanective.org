@@ -3,9 +3,6 @@ Thirdparty images
 
 | File Name                                                                                                  | License / Guidelines                                       |
 | ---------------------------------------------------------------------------------------------------------- |:----------------------------------------------------------:|
-| [social/facebook.svg](http://www.flaticon.com/authors/elegant-themes)                                      | CC BY 3.0                                                  |
-| [social/linkedin.svg](http://www.flaticon.com/authors/elegant-themes)                                      | CC BY 3.0                                                  |
-| [social/twitter.svg](http://www.flaticon.com/authors/elegant-themes)                                       | CC BY 3.0                                                  |
 | [technologies/bash.svg](https://www.iconfinder.com/icons/285695/terminal_icon)                             | CC BY 3.0                                                  |
 | [technologies/ci.svg](http://www.flaticon.com/free-icon/cycle-represented-by-four-arrows-circle-in-a-rounded-square_27568) | CC BY 3.0                                  |
 | [technologies/css.svg](http://www.bobbyberberyan.com/2012/03/html-5-css-3-logos/)                          | Free to use                                                |
@@ -16,4 +13,5 @@ Thirdparty images
 | [technologies/typescript.svg](https://github.com/remojansen/logo.ts)                                       | MIT                                                        |
 | [technologies/webpack.png](https://github.com/webpack/webpack.github.com/blob/master/assets/logo-cube.png) | MIT                                                        |
 
+Facebook, Twitter, LinkedIn, and Github icons are by Joel Glovier. They are included in resume-template.
 Other brand icons not listed here are official icons.
