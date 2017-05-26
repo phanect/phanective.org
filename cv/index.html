@@ -305,29 +305,35 @@
         color: #333;
       }
       .technologies {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
         max-width: 728px;
         margin-bottom: 12px;
       }
       .technology {
         display: flex;
-        width: 150px;
-        height: 48px;
-        margin-right: 24px;
-        margin-bottom: 12px;
+        width: 12vw /* 150px */
+        height: 5vw /* 48px */
+
+        font-size: 1rem
+        /* margin-right: 24px */
+        /* margin-bottom: 12px */
       }
-      .technology:nth-child(1) {
+      /*.technology:nth-child(1) {
         margin-right: 24px;
       }
       .technology:nth-last-child(1) {
         margin-left: 0;
-      }
+      }*/
       .technology p {
         margin-left: 6px;
       }
       .technology img {
-        height: 48px;
+        width: 5vw
+        /* height: 48px */
+        height: 5vw
       }
     </style>
 
