@@ -1,6 +1,6 @@
 {
-  "name": "portfolio",
-  "version": "0.0.1",
+  "name": "phanective.org",
+  "version": "1.0.0",
   "description": "Jumpei Ogawa's Personal Portfolio",
   "scripts": {
     "start": "harp server .",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phanect/"
+    "url": "git+https://github.com/phanect/phanective.org"
   },
   "author": "Jumpei Ogawa",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/phanect/"
+    "url": "https://github.com/phanect/phanective.org"
   },
-  "homepage": "https://github.com/phanect/",
+  "homepage": "https://phanective.org",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
