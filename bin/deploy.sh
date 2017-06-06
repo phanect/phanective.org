@@ -11,6 +11,7 @@ rm --recursive --force ./.build
 rm --recursive --force ./npm_modules
 
 yarn install
+npm run build
 
 mkdir .build
 cp --recursive ./.git ./.build/
