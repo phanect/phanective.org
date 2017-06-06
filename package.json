@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/phanect/",
   "dependencies": {
+    "react-grid-layout": "^0.14.6",
     "sanitize.css": "5.x"
   },
   "devDependencies": {
-    "stylus": "0.54.x"
+    "stylus": "0.54.x",
+    "webpack": "^2.6.1"
   }
 }
