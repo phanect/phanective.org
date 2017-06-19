@@ -1,4 +1,4 @@
-FROM node:4-slim
+FROM node:8-slim
 
 RUN apt-get update -qq && apt-get dist-upgrade --yes \
   && apt-get install --yes apt-transport-https \
