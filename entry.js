@@ -1,3 +1,3 @@
 "use strict";
 
-import style from "./style.css";
+import"./style.css";
