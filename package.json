@@ -5,7 +5,7 @@
   "scripts": {
     "start": "$(npm bin)/webpack-dev-server",
     "postinstall": "$(npm bin)/webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "$(npm bin)/eslint --ignore-path .gitignore ."
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,10 @@
     "sanitize.css": "5.x"
   },
   "devDependencies": {
+    "@phanect/eslint-config-phanective": "latest",
     "css-loader": "^0.28.4",
+    "eslint": "latest",
+    "eslint-plugin-html": "^3.0.0",
     "style-loader": "^0.18.2",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
