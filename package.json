@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Jumpei Ogawa's Personal Portfolio",
   "scripts": {
-    "start": "$(npm bin)/webpack-dev-server",
-    "postinstall": "$(npm bin)/webpack",
-    "test": "$(npm bin)/eslint --ignore-path .gitignore ."
+    "start": "webpack-dev-server",
+    "postinstall": "webpack",
+    "test": "eslint --ignore-path .gitignore ."
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "eslint": "latest",
     "eslint-plugin-html": "^3.0.0",
     "style-loader": "^0.18.2",
+    "vnu-jar": "^17.9.0",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
   },
