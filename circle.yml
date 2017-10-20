@@ -4,7 +4,7 @@ jobs:
   build:
     working_directory: ~/phanective.org
     docker:
-      - image: phanect/testenv-phanective.org
+      - image: phanect/ci-phanective.org
     steps:
       - run:
           name: System Update
