@@ -3,11 +3,14 @@ box: phanect/testenv-phanective.org
 build:
   steps:
     - script:
+        name: System update
+        code: apt-get update -qq && apt-get dist-upgrade --yes
+    - script:
         name: Install dependencies
         code: yarn install
     - script:
         name: Test (Currently just run eslint)
-        code: npm test
+        code: yarn test
 
 deploy:
   steps:
