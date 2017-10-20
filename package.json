@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Jumpei Ogawa's Personal Portfolio",
   "scripts": {
-    "start": "$(npm bin)/webpack-dev-server",
-    "postinstall": "$(npm bin)/webpack",
-    "test": "$(npm bin)/eslint --ignore-path .gitignore ."
+    "start": "webpack-dev-server",
+    "postinstall": "webpack",
+    "test": "eslint --ignore-path .gitignore ."
   },
   "repository": {
     "type": "git",
@@ -24,10 +24,11 @@
     "@phanect/eslint-config-phanective": "latest",
     "css-loader": "^0.28.4",
     "eslint": "latest",
-    "eslint-plugin-html": "^3.0.0",
+    "eslint-plugin-html": "latest",
     "style-loader": "^0.18.2",
+    "vnu-jar": "latest",
     "webpack": "^2.6.1",
-    "webpack-dev-server": "^2.4.5"
+    "webpack-dev-server": "^2.9.2"
   },
   "engines": {
     "node": "8.x"
