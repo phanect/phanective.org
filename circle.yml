@@ -1,33 +1,27 @@
-box: phanect/testenv-phanective.org
+version: 2
 
-build:
-  steps:
-    - script:
-        name: System update
-        code: apt-get update -qq && apt-get dist-upgrade --yes
-    - script:
-        name: Install dependencies
-        code: yarn install
-    - script:
-        name: Test (Currently just run eslint)
-        code: yarn test
-
-deploy:
-  steps:
-    - add-to-known_hosts:
-        hostname: github.com
-        fingerprint: 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48
-    - add-ssh-key:
-        keyname: phanective_org
-    - script:
-      name: Configure git user
-      code: |
-        git config --global user.name "Jumpei Ogawa (via wercker)"
-        git config --global user.email "phanect@users.noreply.github.com"
-
-
-    - script:
-        name: Deploy onto Github Pages
-        code: |
-          chmod +x ./bin/deploy.sh
-          ./bin/deploy.sh
+jobs:
+  build:
+    working_directory: ~/phanective.org
+    docker:
+      - image: phanect/testenv-phanective.org
+    steps:
+      - run:
+          name: System Update
+          command: |
+            sudo apt-get update -qq
+            DEBIAN_FRONTEND=noninteractive sudo apt-get dist-upgrade --yes
+      - run:
+          name: Configure git user
+          command: |
+            git config --global user.name "Jumpei Ogawa (via wercker)"
+            git config --global user.email "phanect@users.noreply.github.com"
+      - checkout
+      - run: yarn install
+      - run: yarn test
+      - deploy:
+          command: |
+            if [[ "${CIRCLE_BRANCH}" = "master" ]]; then
+              chmod +x ./bin/deploy.sh
+              ./bin/deploy.sh
+            fi
