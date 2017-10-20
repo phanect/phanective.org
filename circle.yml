@@ -1,0 +1,27 @@
+version: 2
+
+jobs:
+  build:
+    working_directory: ~/phanective.org
+    docker:
+      - image: phanect/ci-phanective.org
+    steps:
+      - run:
+          name: System Update
+          command: |
+            sudo apt-get update -qq
+            DEBIAN_FRONTEND=noninteractive sudo apt-get dist-upgrade --yes
+      - run:
+          name: Configure git user
+          command: |
+            git config --global user.name "Jumpei Ogawa (via wercker)"
+            git config --global user.email "phanect@users.noreply.github.com"
+      - checkout
+      - run: yarn install
+      - run: yarn test
+      - deploy:
+          command: |
+            if [[ "${CIRCLE_BRANCH}" = "master" ]]; then
+              chmod +x ./bin/deploy.sh
+              ./bin/deploy.sh
+            fi
