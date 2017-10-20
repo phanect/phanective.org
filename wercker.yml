@@ -10,7 +10,7 @@ build:
         code: yarn install
     - script:
         name: Test (Currently just run eslint)
-        code: npm test
+        code: yarn test
 
 deploy:
   steps:
