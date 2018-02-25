@@ -28,7 +28,7 @@
     "style-loader": "^0.18.2",
     "vnu-jar": "latest",
     "webpack": "^2.6.1",
-    "webpack-dev-server": "^2.9.2"
+    "webpack-dev-server": "^3.0.0"
   },
   "engines": {
     "node": "8.x"
