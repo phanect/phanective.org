@@ -14,7 +14,7 @@ jobs:
       - run:
           name: Configure git user
           command: |
-            git config --global user.name "Jumpei Ogawa (via wercker)"
+            git config --global user.name "Jumpei Ogawa (via CircleCI)"
             git config --global user.email "phanect@users.noreply.github.com"
       - checkout
       - run: yarn install
