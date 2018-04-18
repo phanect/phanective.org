@@ -4,7 +4,7 @@
   "description": "Jumpei Ogawa's Personal Portfolio",
   "scripts": {
     "start": "webpack-dev-server",
-    "postinstall": "webpack",
+    "build": "webpack --mode=production",
     "test": "eslint --ignore-path .gitignore ."
   },
   "repository": {

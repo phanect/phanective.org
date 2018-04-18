@@ -28,6 +28,9 @@ rsync --recursive --delete-after \
   .. ./
 
 yarn install
+yarn build
+
+rm --recursive --force ./node_modules/
 
 git add --all
 git commit --message="Deployment at $(date "+%F %H:%M:%S")"
