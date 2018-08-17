@@ -4,6 +4,7 @@ set -eu
 set -v
 
 hash git
+hash rsync
 hash yarn
 
 rm --recursive --force ./.build
