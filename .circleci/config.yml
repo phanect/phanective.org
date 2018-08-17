@@ -16,12 +16,20 @@ jobs:
           command: |
             git config --global user.name "Jumpei Ogawa (via CircleCI)"
             git config --global user.email "phanect@users.noreply.github.com"
+
       - checkout
       - run: yarn install
       - run: yarn test
+
+      - run:
+          name: test if dependency commands are installed
+          command: |
+            hash git
+            hash rsync
+            hash yarn
+
       - deploy:
           command: |
             if [[ "${CIRCLE_BRANCH}" = "master" ]]; then
-              chmod +x ./bin/deploy.sh
-              ./bin/deploy.sh
+              ./.circleci/deploy.sh
             fi
