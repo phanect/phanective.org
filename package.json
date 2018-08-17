@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@phanect/eslint-config-phanective": "latest",
-    "css-loader": "^0.28.11",
+    "css-loader": "^1.0.0",
     "eslint": "latest",
     "eslint-plugin-html": "latest",
     "style-loader": "^0.22.0",
