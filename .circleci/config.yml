@@ -22,6 +22,5 @@ jobs:
       - deploy:
           command: |
             if [[ "${CIRCLE_BRANCH}" = "master" ]]; then
-              chmod +x ./.circleci/deploy.sh
               ./.circleci/deploy.sh
             fi
