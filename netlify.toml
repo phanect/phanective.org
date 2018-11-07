@@ -1,4 +1,12 @@
+[Settings]
+ID = "3988ec87-e169-4caf-be5a-a4baca91a3f4"
+
 [build]
   base    = "."
-  publish = "."
-  command = "yarn install && yarn run build"
+  publish = "./"
+  command = "yarn install && yarn run _build && cp ./node_modules/@ampproject/worker-dom/dist/index.mjs ./worker-dom-index.mjs && cp ./node_modules/@ampproject/worker-dom/dist/worker.mjs ./worker.mjs"
+[context.production]
+  publish = "./"
+  command = "yarn install && cp ./node_modules/@ampproject/worker-dom/dist/index.mjs ./worker-dom-index.mjs && cp ./node_modules/@ampproject/worker-dom/dist/worker.mjs ./worker.mjs"
+  [context.production.environment]
+    YARN_VERSION = "1.12.1"
