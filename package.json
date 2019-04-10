@@ -21,7 +21,7 @@
     "sanitize.css": "^6.0.0"
   },
   "devDependencies": {
-    "@phanect/eslint-config-phanective": "latest",
+    "@phanect/eslint-plugin": "latest",
     "css-loader": "^1.0.0",
     "eslint": "latest",
     "eslint-plugin-html": "latest",
