@@ -1,11 +1,13 @@
-{
-  "extends": "@phanect/phanective",
+"use strict";
 
-  "parserOptions": {
-    "sourceType": "module"
+module.exports = {
+  extends: "@phanect/phanective",
+
+  parserOptions: {
+    sourceType: "module"
   },
-  "env": {
-    "browser":  true,
-    "node": true
+  env: {
+    browser:  true,
+    node: true
   }
-}
+};
