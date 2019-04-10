@@ -4,8 +4,7 @@
   "description": "Jumpei Ogawa's Personal Portfolio",
   "scripts": {
     "start": "DEV_SERVER_ROOT=. dev-server",
-    "build": "parcel build style/index.css",
-    "test": "eslint --ignore-path .gitignore ."
+    "build": "parcel build style/index.css"
   },
   "repository": {
     "type": "git",
