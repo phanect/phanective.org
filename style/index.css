@@ -1,0 +1,41 @@
+@import "./default.css"
+
+h1.myname {
+  margin-bottom: 10px;
+}
+.center-inline {
+  text-align: center;
+}
+.center {
+  display: block;
+  margin: auto;
+}
+.avatar {
+  width: 15%;
+  border-radius: 10%;
+  margin: 10px auto;
+}
+.cvlink {
+  margin-top: 8px;
+}
+ul.accounts {
+  box-sizing: content-box;
+  list-style: none;
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 238px;
+}
+ul.accounts li {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+ul.accounts img {
+  width: 32px;
+  height: 32px;
+}
+ul.accounts .circular {
+  border-radius: 50%;
+}

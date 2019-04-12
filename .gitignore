@@ -1,8 +1,8 @@
 *.log
 .directory
 
-.build/
+.cache/
+dist/
 
 bower_components
 node_modules
-bundle.js
