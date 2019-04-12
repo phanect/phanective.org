@@ -9,4 +9,4 @@ License
 
 Credits
 --------
-- [resume-template](https://github.com/jglovier/resume-template) contributors including [Joel Glovier](https://github.com/jglovier) - CV page and some social icons are brought from this project
+- [resume-template](https://github.com/jglovier/resume-template) contributors including [Joel Glovier](https://github.com/jglovier) - social icons are brought from this project
