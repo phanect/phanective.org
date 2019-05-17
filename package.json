@@ -17,7 +17,7 @@
   },
   "homepage": "https://phanective.org",
   "dependencies": {
-    "sanitize.css": "^8.0.0"
+    "sanitize.css": "^9.0.0"
   },
   "devDependencies": {
     "@phanect/eslint-plugin": "latest",
