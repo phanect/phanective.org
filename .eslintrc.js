@@ -1,3 +1,4 @@
+/* eslint-env node */
 "use strict";
 
 module.exports = {
@@ -7,5 +8,5 @@ module.exports = {
   env: {
     browser: true,
   },
-  plugins: [ "@phanect" ]
+  plugins: [ "@phanect" ],
 };

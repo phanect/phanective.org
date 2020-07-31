@@ -13,5 +13,5 @@ jobs:
             DEBIAN_FRONTEND=noninteractive sudo apt-get dist-upgrade --yes
 
       - checkout
-      - run: yarn install
-      # - run: yarn test # Currently there is no tests
+      - run: npm install
+      # - run: npm test # Currently there is no tests

@@ -28,6 +28,6 @@
     "vnu-jar": "latest"
   },
   "engines": {
-    "node": "12.x"
+    "node": ">=12.x"
   }
 }
