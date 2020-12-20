@@ -1,5 +1,4 @@
 [build]
   base    = "."
   publish = "."
-  command = "npm run build"
   environment = { NODE_ENV = "production", NODE_VERSION = "14", NPM_FLAGS = "--production=false" }
