@@ -16,9 +16,6 @@
     "url": "https://github.com/phanect/phanective.org"
   },
   "homepage": "https://phanective.org",
-  "dependencies": {
-    "sanitize.css": "^11.0.0"
-  },
   "devDependencies": {
     "@phanect/eslint-plugin": "latest",
     "dev-server": "^0.1.0",
