@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Jumpei Ogawa's Personal Portfolio",
   "scripts": {
-    "start": "DEV_SERVER_ROOT=. dev-server",
-    "build": "parcel build style/index.css"
+    "start": "DEV_SERVER_ROOT=. dev-server"
   },
   "repository": {
     "type": "git",
@@ -21,7 +20,6 @@
     "dev-server": "^0.1.0",
     "eslint": "latest",
     "eslint-plugin-html": "latest",
-    "parcel-bundler": "^1.12.3",
     "vnu-jar": "latest"
   },
   "engines": {
