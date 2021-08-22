@@ -32,3 +32,8 @@ yarn.lock
 # Others
 .node_repl_history
 .eslintcache
+
+# Vite
+dist/
+dist-ssr/
+*.local
