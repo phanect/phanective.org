@@ -4,7 +4,9 @@
   "description": "Jumpei Ogawa's Personal Portfolio",
   "type": "module",
   "scripts": {
-    "start": "DEV_SERVER_ROOT=. dev-server"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,9 @@
   "homepage": "https://phanective.org",
   "devDependencies": {
     "@phanect/eslint-plugin": "latest",
-    "dev-server": "^0.1.0",
     "eslint": "latest",
     "eslint-plugin-html": "latest",
+    "vite": "^2.4.4",
     "vnu-jar": "latest"
   },
   "engines": {
