@@ -9,4 +9,11 @@ module.exports = {
     browser: true,
   },
   plugins: [ "@phanect" ],
+
+  overrides: [{
+    files: [ "*.js", "**/*.js" ],
+    parserOptions: {
+      sourceType: "module",
+    },
+  }],
 };
