@@ -2,6 +2,7 @@
   "name": "phanective.org",
   "version": "1.0.0",
   "description": "Jumpei Ogawa's Personal Portfolio",
+  "type": "module",
   "scripts": {
     "start": "DEV_SERVER_ROOT=. dev-server"
   },
