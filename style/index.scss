@@ -2,6 +2,8 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -15,27 +17,23 @@ body {
   line-height: 1.5;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
 h1.myname {
   margin-bottom: 10px;
-}
-.center-inline {
-  text-align: center;
-}
-.center {
-  display: block;
-  margin: auto;
 }
 .avatar {
   width: 15%;
   border-radius: 10%;
-  margin: 10px auto;
 }
 ul.accounts {
-  box-sizing: content-box;
   list-style: none;
-  margin: 0 auto;
   margin-top: 15px;
-  width: 238px;
 }
 ul.accounts li {
   display: inline-block;
