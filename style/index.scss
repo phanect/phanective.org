@@ -17,39 +17,41 @@ body {
   line-height: 1.5;
 }
 
-.wrapper {
+.index {
   display: flex;
   flex-direction: column;
   align-items: center;
 
   width: 100%;
-}
-h1.myname {
-  margin-top: 0.7em;
-  margin-bottom: 0.5em;
-}
-.tagline {
-  margin-bottom: 1em;
-}
-.avatar {
-  width: 15%;
-  border-radius: 10%;
-}
-ul.accounts {
-  list-style: none;
-  margin-top: 15px;
-}
-ul.accounts li {
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-  padding-left: 1px;
-  padding-right: 1px;
-}
-ul.accounts img {
-  width: 32px;
-  height: 32px;
-}
-ul.accounts .circular {
-  border-radius: 50%;
+
+  &__myname {
+    margin-top: 0.7em;
+    margin-bottom: 0.5em;
+  }
+  &__tagline {
+    margin-bottom: 1em;
+  }
+  &__avatar {
+    width: 15%;
+    border-radius: 10%;
+  }
+  &__accounts {
+    list-style: none;
+    margin-top: 15px;
+  }
+  &__account-item {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+  &__account-img {
+    width: 32px;
+    height: 32px;
+
+    &--circular {
+      border-radius: 50%;
+    }
+  }
 }
