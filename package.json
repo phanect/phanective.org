@@ -23,7 +23,7 @@
     "eslint": "latest",
     "eslint-plugin-html": "latest",
     "sass": "^1.49.7",
-    "vite": "^2.4.4",
+    "vite": "^2.9.13",
     "vnu-jar": "latest"
   },
   "engines": {
