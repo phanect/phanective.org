@@ -19,8 +19,8 @@
   },
   "homepage": "https://phanective.org",
   "devDependencies": {
-    "@phanect/eslint-plugin": "latest",
     "eslint": "latest",
+    "eslint-config-phanective": "latest",
     "eslint-plugin-html": "latest",
     "sass": "^1.49.7",
     "vite": "^2.4.4",

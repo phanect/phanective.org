@@ -2,13 +2,12 @@
 "use strict";
 
 module.exports = {
-  extends: "plugin:@phanect/plain",
+  extends: "phanective/plain",
   root: true,
 
   env: {
     browser: true,
   },
-  plugins: [ "@phanect" ],
 
   overrides: [{
     files: [ "*.js", "**/*.js" ],
