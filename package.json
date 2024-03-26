@@ -28,7 +28,7 @@
     "vnu-jar": "latest"
   },
   "engines": {
-    "node": ">=16.x",
-    "npm": ">=7.x"
+    "node": ">=20.x",
+    "npm": ">=9.x"
   }
 }
