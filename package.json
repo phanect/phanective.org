@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "lint": "eslint --ext=.js,.cjs,.json ."
+    "lint": "eslint --ext=.js,.cjs,.json .",
+    "preinstall": "node scripts/is-cfp.js && npm install -g npm || :"
   },
   "repository": {
     "type": "git",
@@ -24,11 +25,11 @@
     "eslint-config-phanective": "latest",
     "eslint-plugin-html": "latest",
     "sass": "^1.49.7",
-    "vite": "^2.9.16",
+    "vite": "^5.2.6",
     "vnu-jar": "latest"
   },
   "engines": {
-    "node": ">=16.x",
-    "npm": ">=7.x"
+    "node": ">=20.x",
+    "npm": ">=9.x"
   }
 }
