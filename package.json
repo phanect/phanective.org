@@ -24,7 +24,7 @@
     "eslint-config-phanective": "latest",
     "eslint-plugin-html": "latest",
     "sass": "^1.49.7",
-    "vite": "^2.9.16",
+    "vite": "^5.2.6",
     "vnu-jar": "latest"
   },
   "engines": {
