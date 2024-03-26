@@ -9,10 +9,18 @@ module.exports = {
     browser: true,
   },
 
-  overrides: [{
-    files: [ "*.js", "**/*.js" ],
-    parserOptions: {
-      sourceType: "module",
+  overrides: [
+    {
+      files: [ "*.js", "**/*.js" ],
+      parserOptions: {
+        sourceType: "module",
+      },
     },
-  }],
+    {
+      files: [ "scripts/**/*" ],
+      env: {
+        node: true,
+      },
+    },
+  ],
 };
