@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "lint": "eslint --ext=.js,.cjs,.json .",
+    "lint": "tsc --noEmit && eslint",
     "preinstall": "node scripts/is-cfp.js && npm install -g npm || :"
   },
   "repository": {
@@ -21,9 +21,11 @@
   },
   "homepage": "https://phanective.org",
   "devDependencies": {
+    "@phanect/configs": "latest",
+    "@phanect/lint": "latest",
     "eslint": "latest",
-    "eslint-config-phanective": "latest",
     "sass": "^1.49.7",
+    "typescript": "^5.7.3",
     "vite": "^5.2.14"
   },
   "engines": {
