@@ -8,6 +8,8 @@
     "build": "vite build",
     "serve": "vite preview",
     "lint": "tsc --noEmit && eslint",
+    "clean": "git clean -dX --exclude=\"!.env\" --force",
+    "refresh": "npm run clean && rm --force ./package-lock.json && npm install",
     "preinstall": "node scripts/is-cfp.js && npm install -g npm || :"
   },
   "repository": {
