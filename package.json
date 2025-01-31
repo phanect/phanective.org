@@ -23,10 +23,8 @@
   "devDependencies": {
     "eslint": "latest",
     "eslint-config-phanective": "latest",
-    "eslint-plugin-html": "latest",
     "sass": "^1.49.7",
-    "vite": "^5.2.14",
-    "vnu-jar": "latest"
+    "vite": "^5.2.14"
   },
   "engines": {
     "node": ">=20.x",
