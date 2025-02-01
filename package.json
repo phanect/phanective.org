@@ -18,9 +18,6 @@
   },
   "author": "Jumpei Ogawa",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/phanect/phanective.org"
-  },
   "homepage": "https://phanective.org",
   "devDependencies": {
     "@phanect/configs": "latest",
