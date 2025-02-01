@@ -2,6 +2,13 @@
   "name": "phanective.org",
   "version": "1.0.0",
   "description": "Jumpei Ogawa's Personal Portfolio",
+  "author": "Jumpei Ogawa",
+  "license": "MIT",
+  "homepage": "https://phanective.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phanect/phanective.org"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,13 +19,6 @@
     "refresh": "npm run clean && rm --force ./package-lock.json && npm install",
     "preinstall": "node scripts/is-cfp.js && npm install -g npm || :"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/phanect/phanective.org"
-  },
-  "author": "Jumpei Ogawa",
-  "license": "MIT",
-  "homepage": "https://phanective.org",
   "devDependencies": {
     "@phanect/configs": "latest",
     "@phanect/lint": "latest",
