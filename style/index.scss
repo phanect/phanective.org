@@ -35,22 +35,10 @@ body {
     border-radius: 10%;
   }
   &__accounts {
-    list-style: none;
-    margin-top: 15px;
-  }
-  &__account-item {
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    padding-left: 1px;
-    padding-right: 1px;
-  }
-  &__account-img {
-    width: 32px;
-    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 1em;
 
-    &--circular {
-      border-radius: 50%;
-    }
+    margin-top: 15px;
   }
 }
