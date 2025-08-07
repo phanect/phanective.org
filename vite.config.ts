@@ -4,4 +4,7 @@ export default defineConfig({
   build: {
     polyfillModulePreload: false,
   },
+  server: {
+    port: 3000,
+  },
 });
