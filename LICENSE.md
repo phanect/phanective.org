@@ -3,4 +3,4 @@
 This repository is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), except for files under images/.
 See [LICENSE-CC.txt](./LICENSE-CC.txt) for CC BY 4.0.
 
-This website uses icons from [resume-template](https://github.com/jglovier/resume-template) by [Joel Glovier](https://github.com/jglovier) and the other contributors.
+The social icons are from their official sources. Licensed under their own guidelines and the terms of use.
