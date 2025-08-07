@@ -2,10 +2,17 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "phanective-org",
   "compatibility_date": "2025-08-07",
-  "pages_build_output_dir": "./dist",
-
   "placement": {
     "mode": "smart"
+  },
+  "preview_urls": true,
+
+  "routes": [{
+    "pattern": "phanective.org",
+    "custom_domain": true
+  }],
+  "assets": {
+    "directory": "./dist"
   },
 
   "env": {
