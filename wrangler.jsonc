@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "phanective-org",
+  "compatibility_date": "2024-11-11",
+  "pages_build_output_dir": "./dist",
+
+  "placement": {
+    "mode": "smart"
+  },
+
+  "env": {
+    "production": {
+      "vars": {
+        "NODE_ENV": "production",
+        "SERVER_ENV": "production",
+        "NODE_VERSION": "22"
+      }
+    },
+    "preview": {
+      "vars": {
+        "SERVER_ENV": "preview",
+        "NODE_VERSION": "22"
+      }
+    }
+  }
+}
