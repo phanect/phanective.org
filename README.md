@@ -1,5 +1,4 @@
-[phanective.org](https://phanective.org)
-=======================================
+# [phanective.org](https://phanective.org)
 
 Jumpei Ogawa's personal portfolio web site.
 
