@@ -3,10 +3,6 @@
 
 Jumpei Ogawa's personal portfolio web site.
 
-License
--------
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), except for files under images/
+## License & Credits
 
-Credits
---------
-- [resume-template](https://github.com/jglovier/resume-template) contributors including [Joel Glovier](https://github.com/jglovier) - social icons are brought from this project
+See [LICENSE.txt](./LICENSE.txt)
