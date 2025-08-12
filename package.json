@@ -22,11 +22,11 @@
     "@phanect/configs": "latest",
     "@phanect/lint": "latest",
     "eslint": "latest",
-    "jiti": "^2.4.2",
-    "sass": "^1.49.7",
-    "typescript": "^5.7.3",
-    "vite": "^7.0.5",
-    "wrangler": "^4.25.0"
+    "jiti": "^2.5.1",
+    "sass": "^1.90.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.1",
+    "wrangler": "^4.28.1"
   },
   "engines": {
     "node": "20.x || 22.x || >=24.x",
