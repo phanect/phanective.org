@@ -23,10 +23,10 @@
     "@phanect/lint": "latest",
     "eslint": "latest",
     "jiti": "^2.6.1",
-    "sass": "^1.93.2",
+    "sass": "^1.93.3",
     "typescript": "^5.9.3",
     "vite": "^7.1.12",
-    "wrangler": "^4.45.0"
+    "wrangler": "^4.45.3"
   },
   "engines": {
     "node": "20.x || 22.x || >=24.x",
