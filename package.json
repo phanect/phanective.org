@@ -2,7 +2,10 @@
   "name": "phanective.org",
   "version": "1.0.0",
   "description": "Jumpei Ogawa's Personal Portfolio",
-  "author": "Jumpei Ogawa",
+  "author": {
+    "name": "Jumpei Ogawa",
+    "url": "https://phanective.org"
+  },
   "license": "Apache-2.0",
   "homepage": "https://phanective.org",
   "repository": {
