@@ -1,6 +1,6 @@
 # [phanective.org](https://phanective.org)
 
-Jumpei Ogawa's personal portfolio web site.
+Jumpei Ogawa's personal web site.
 
 ## License & Credits
 
