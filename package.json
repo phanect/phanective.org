@@ -14,13 +14,6 @@
   },
   "private": true,
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "tsc --noEmit && eslint",
-    "clean": "git clean -dX --exclude=\"!.env\" --force",
-    "refresh": "pnpm run clean && rm --force ./pnpm-lock.yaml && corepack up && pnpm install"
-  },
   "devDependencies": {
     "@phanect/configs": "latest",
     "@phanect/lint": "latest",
