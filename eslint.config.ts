@@ -2,12 +2,6 @@ import { core } from "@phanect/lint";
 import type { Linter } from "eslint";
 
 const configs: Linter.Config[] = [
-  {
-    ignores: [
-      "./node_modules",
-    ],
-  },
-
   ...core,
 
   {
