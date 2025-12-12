@@ -21,13 +21,13 @@
       "vars": {
         "NODE_ENV": "production",
         "SERVER_ENV": "production",
-        "NODE_VERSION": "22"
+        "NODE_VERSION": "24"
       }
     },
     "preview": {
       "vars": {
         "SERVER_ENV": "preview",
-        "NODE_VERSION": "22"
+        "NODE_VERSION": "24"
       }
     }
   }
