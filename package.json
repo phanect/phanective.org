@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Jumpei Ogawa's Personal Portfolio",
   "author": "Jumpei Ogawa",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "homepage": "https://phanective.org",
   "repository": {
     "type": "git",
