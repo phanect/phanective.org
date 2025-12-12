@@ -1,9 +1,5 @@
 #
-# Project-Specific
-#
-
-#
-# System
+# Generic
 #
 
 # PIDs
@@ -17,11 +13,8 @@ pids
 Thumbs.db
 .DS_Store
 
-#
-# Generic
-#
-
 # Build directory
+build/
 dist/
 
 # tmp files
@@ -32,10 +25,24 @@ tmp/
 logs/
 *.log
 
+# Archives
+*.zip
+*.tar.gz
+*.tar.xz
+*.tar
+*.tgz
+
 # dotenv
 .env
 .env.*
 !.env.example
+
+# SQLite DB
+*.db
+*.db-journal
+
+# mise
+mise.local.toml
 
 #
 # JavaScript
@@ -51,10 +58,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Output of `npm pack`
-*.tgz
-
-# npm is the package manager for this project.
+# pnpm is the package manager for this project.
 package-lock.json
 yarn.lock
 bun.lockb
@@ -84,6 +88,8 @@ worker-configuration.d.ts
 # Vite
 dist-ssr/
 *.local
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
 
 # ESLint
 .eslintcache
