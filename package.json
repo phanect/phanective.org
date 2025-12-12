@@ -12,6 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/phanect/phanective.org"
   },
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
