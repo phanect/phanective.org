@@ -28,7 +28,7 @@
     "jiti": "latest",
     "sass": "^1.97.3",
     "typescript": "^5.9.3",
-    "vite": "^7.3.1",
+    "vite": "^8.0.0",
     "wrangler": "^4.71.0"
   },
   "engines": {
