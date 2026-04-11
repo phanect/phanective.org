@@ -28,8 +28,8 @@
     "jiti": "latest",
     "sass": "^1.99.0",
     "typescript": "^5.9.3",
-    "vite": "^8.0.5",
-    "wrangler": "^4.80.0"
+    "vite": "^8.0.8",
+    "wrangler": "^4.81.1"
   },
   "engines": {
     "node": "^24.0.0"
