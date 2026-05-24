@@ -24,7 +24,7 @@
   "devDependencies": {
     "@phanect/configs": "latest",
     "@phanect/lint": "latest",
-    "eslint": "^9.39.4",
+    "eslint": "^10.0.0",
     "jiti": "latest",
     "sass": "^1.99.0",
     "typescript": "^6.0.0",
