@@ -1,4 +1,6 @@
+engineStrict: true
 minimumReleaseAge: 4320 # 72 hours
+minimumReleaseAgeExcludePrune: true
 allowBuilds:
   '@parcel/watcher': true
   esbuild: true
