@@ -1,30 +1,267 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jumpei Ogawa - A JavaScript Developer</title>
+    <meta name="description" content="Jumpei Ogawa - JavaScript Developer | Full Stack Engineer | Open Source Contributor">
+    <meta name="theme-color" content="#6366f1">
+    <title>Jumpei Ogawa - JavaScript Developer</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style/index.scss">
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ca2a8697e0ba42cba8378883c18e9e44"}'></script>
   </head>
   <body>
-    <main class="index">
-      <h1 class="index__myname">Jumpei Ogawa</h1>
-      <h2 class="index__tagline">A JavaScript Developer</h2>
-      <img class="index__avatar" alt="" src="/images/avatar.jpg" width="288px" height="288px" decoding="async">
+    <div class="theme-toggle" aria-label="Toggle theme">
+      <input type="checkbox" id="theme-checkbox" class="theme-toggle__input">
+      <label for="theme-checkbox" class="theme-toggle__label">
+        <span class="theme-toggle__icon theme-toggle__icon--sun"></span>
+        <span class="theme-toggle__icon theme-toggle__icon--moon"></span>
+      </label>
+    </div>
 
-      <div class="index__accounts">
-        <a href="https://github.com/phanect">
-          <img alt="GitHub" src="/images/vendor/github.svg" width="36px" height="36px" decoding="async">
-        </a>
-        <a href="https://zenn.dev/phanect">
-          <img alt="Zenn" src="/images/vendor/zenn.svg" width="32px" height="32px" decoding="async">
-        </a>
-        <a href="https://qiita.com/phanect">
-          <img alt="Qiita" src="/images/vendor/qiita.png" width="32px" height="32px" decoding="async">
-        </a>
-      </div>
+    <main class="container">
+      <header class="hero">
+        <div class="hero__avatar-container">
+          <img 
+            class="hero__avatar" 
+            src="/images/avatar.jpg" 
+            alt="Jumpei Ogawa profile picture"
+            width="288" 
+            height="288"
+            decoding="async"
+            loading="lazy"
+          >
+          <div class="hero__avatar-ring"></div>
+        </div>
+        
+        <div class="hero__content">
+          <h1 class="hero__name">
+            <span class="hero__name-gradient">Jumpei Ogawa</span>
+          </h1>
+          <h2 class="hero__tagline">JavaScript Developer & Open Source Contributor</h2>
+          <p class="hero__bio">
+            Building scalable web applications with modern JavaScript technologies. 
+            Passionate about performance, accessibility, and developer experience.
+          </p>
+        </div>
+
+        <div class="hero__social">
+          <a 
+            href="https://github.com/phanect" 
+            class="social-link" 
+            aria-label="GitHub"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <img 
+              src="/images/vendor/github.svg" 
+              alt="GitHub" 
+              width="36" 
+              height="36" 
+              decoding="async"
+              loading="lazy"
+            >
+            <span class="social-link__text">GitHub</span>
+          </a>
+          <a 
+            href="https://zenn.dev/phanect" 
+            class="social-link" 
+            aria-label="Zenn"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <img 
+              src="/images/vendor/zenn.svg" 
+              alt="Zenn" 
+              width="32" 
+              height="32" 
+              decoding="async"
+              loading="lazy"
+            >
+            <span class="social-link__text">Zenn</span>
+          </a>
+          <a 
+            href="https://qiita.com/phanect" 
+            class="social-link" 
+            aria-label="Qiita"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <img 
+              src="/images/vendor/qiita.png" 
+              alt="Qiita" 
+              width="32" 
+              height="32" 
+              decoding="async"
+              loading="lazy"
+            >
+            <span class="social-link__text">Qiita</span>
+          </a>
+        </div>
+      </header>
+
+      <section class="about section">
+        <h2 class="section__title">
+          <span class="section__title-icon">👋</span>
+          About Me
+        </h2>
+        <div class="about__content">
+          <p>
+            I'm a passionate JavaScript developer with expertise in building modern, 
+            performant web applications. I specialize in frontend development with 
+            frameworks like React, Vue, and Svelte, but also have strong backend 
+            experience with Node.js and various databases.
+          </p>
+          <p>
+            When I'm not coding, I enjoy contributing to open source projects, 
+            writing technical articles, and exploring new technologies that push 
+            the boundaries of what's possible on the web.
+          </p>
+        </div>
+      </section>
+
+      <section class="skills section">
+        <h2 class="section__title">
+          <span class="section__title-icon">🛠️</span>
+          Skills & Technologies
+        </h2>
+        <div class="skills__grid">
+          <div class="skill-card">
+            <div class="skill-card__icon">🌐</div>
+            <h3 class="skill-card__title">Frontend</h3>
+            <p class="skill-card__text">HTML5, CSS3, JavaScript (ES6+), TypeScript, React, Vue, Svelte, Tailwind CSS</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card__icon">💻</div>
+            <h3 class="skill-card__title">Backend</h3>
+            <p class="skill-card__text">Node.js, Express, NestJS, Python, Django, REST APIs, GraphQL</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card__icon">🗄️</div>
+            <h3 class="skill-card__title">Databases</h3>
+            <p class="skill-card__text">PostgreSQL, MySQL, MongoDB, Redis, Firebase</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card__icon">⚙️</div>
+            <h3 class="skill-card__title">DevOps</h3>
+            <p class="skill-card__text">Docker, Kubernetes, AWS, CI/CD, GitHub Actions</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card__icon">🔧</div>
+            <h3 class="skill-card__title">Tools</h3>
+            <p class="skill-card__text">Git, Webpack, Vite, ESLint, Prettier, Jest, Testing Library</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card__icon">🎨</div>
+            <h3 class="skill-card__title">Design</h3>
+            <p class="skill-card__text">UI/UX, Responsive Design, Accessibility, Figma, SCSS</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section">
+        <h2 class="section__title">
+          <span class="section__title-icon">🚀</span>
+          Featured Projects
+        </h2>
+        <div class="projects__grid">
+          <article class="project-card">
+            <div class="project-card__header">
+              <h3 class="project-card__title">phanective.org</h3>
+              <span class="project-card__badge">Personal</span>
+            </div>
+            <p class="project-card__description">
+              My personal portfolio website built with modern web technologies. 
+              Showcasing my work, skills, and professional journey.
+            </p>
+            <div class="project-card__tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Vite</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__header">
+              <h3 class="project-card__title">Open Source Contributions</h3>
+              <span class="project-card__badge">OSS</span>
+            </div>
+            <p class="project-card__description">
+              Active contributor to various open source projects. 
+              Passionate about giving back to the developer community.
+            </p>
+            <div class="project-card__tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">GitHub</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__header">
+              <h3 class="project-card__title">Technical Articles</h3>
+              <span class="project-card__badge">Writing</span>
+            </div>
+            <p class="project-card__description">
+              Regularly publish technical articles on Zenn and Qiita. 
+              Covering topics from frontend development to DevOps practices.
+            </p>
+            <div class="project-card__tags">
+              <span class="tag">Zenn</span>
+              <span class="tag">Qiita</span>
+              <span class="tag">Blog</span>
+              <span class="tag">Tutorials</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section">
+        <h2 class="section__title">
+          <span class="section__title-icon">📧</span>
+          Get In Touch
+        </h2>
+        <div class="contact__content">
+          <p class="contact__text">
+            Interested in collaborating on a project or just want to say hello? 
+            Feel free to reach out through any of my social profiles above.
+          </p>
+          <div class="contact__actions">
+            <a 
+              href="https://github.com/phanect" 
+              class="btn btn--primary"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <span>View GitHub Profile</span>
+              <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+            <a 
+              href="https://zenn.dev/phanect" 
+              class="btn btn--secondary"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <span>Read My Articles</span>
+              <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p class="footer__text">© 2024 Jumpei Ogawa. All rights reserved.</p>
+        <p class="footer__credits">Built with ❤️ and modern web technologies</p>
+      </footer>
     </main>
+
+    <script src="/scripts/theme.js"></script>
   </body>
 </html>
